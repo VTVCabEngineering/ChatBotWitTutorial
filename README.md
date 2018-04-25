@@ -33,6 +33,15 @@ npm install
 node app.js
 ```
 - Sau khi chạy project askmebotserver, ta được 1 server chạy cổng 4005: http://localhost:4005
+- Thực hiện cài đặt Ngrok bằng câu lệnh:
+```bash
+npm install ngrok  -g
+```
+- Chạy câu lệnh:
+```bash
+ngrok http  4005
+```
+Ngrok sẽ sinh ra cho chúng ta 02 địa chỉ http và https của server có cổng 4005 mà  chúng ta đang chạy phía trên. Sử dụng Ngrok để Facebook Messenger có thể kết nối đến Webhook localhost của chúng ta. 
 
 #### Blog
 Đọc thêm tại blog: http://engineering.vtvcab.vn/video-xay-dung-facebook-messenger-voi-wit-ai-nodejs-va-expressjs/
