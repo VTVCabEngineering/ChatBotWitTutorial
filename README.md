@@ -1,6 +1,8 @@
 # ChatBotWitTutorial
 Hướng dẫn xây dựng ứng dụng Facebook Messenger chatbot với Wit.ai, NodeJS, ExpressJS
 
+![alt text](http://engineering.vtvcab.vn/wp-content/uploads/2018/04/ThumbnailWorkshop02.png)
+
 
 ## Video hướng dẫn [tutorial]
 
